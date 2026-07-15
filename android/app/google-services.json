@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "494688131908",
+    "project_id": "ai-crypto-chat",
+    "storage_bucket": "ai-crypto-chat.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494688131908:android:d27b1e955c7c7da5cad511",
+        "android_client_info": {
+          "package_name": "com.example.ai_crypto_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494688131908-61nnkflq02okdqdmu7kmahq0a09mgrk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQeY8Uw6Sw53qS-L9oMdZHBSSaA6gw3lE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494688131908-61nnkflq02okdqdmu7kmahq0a09mgrk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
