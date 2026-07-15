@@ -56,23 +56,23 @@ class DefaultFirebaseOptions {
     projectId: 'ai-crypto-chat',
     storageBucket: 'ai-crypto-chat.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCrukR2J1BqqIeQQ14fuGDVIKu_pmNuuEI',
     appId: '1:494688131908:ios:017a3f91c4a6568fcad511',
     messagingSenderId: '494688131908',
     projectId: 'ai-crypto-chat',
     storageBucket: 'ai-crypto-chat.firebasestorage.app',
+    androidClientId: '494688131908-rppuofcg4cakl99in2pmrq1ivt1dm83j.apps.googleusercontent.com',
     iosClientId: '494688131908-p7ssk8bp9f3oe1rip150aqvpogq8pgn8.apps.googleusercontent.com',
     iosBundleId: 'com.example.aiCryptoChat',
   );
-
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyCrukR2J1BqqIeQQ14fuGDVIKu_pmNuuEI',
     appId: '1:494688131908:ios:017a3f91c4a6568fcad511',
     messagingSenderId: '494688131908',
     projectId: 'ai-crypto-chat',
     storageBucket: 'ai-crypto-chat.firebasestorage.app',
+    androidClientId: '494688131908-rppuofcg4cakl99in2pmrq1ivt1dm83j.apps.googleusercontent.com',
     iosClientId: '494688131908-p7ssk8bp9f3oe1rip150aqvpogq8pgn8.apps.googleusercontent.com',
     iosBundleId: 'com.example.aiCryptoChat',
   );

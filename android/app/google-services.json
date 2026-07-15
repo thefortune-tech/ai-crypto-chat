@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "494688131908-rppuofcg4cakl99in2pmrq1ivt1dm83j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ai_crypto_chat",
+            "certificate_hash": "061384cead8f2317fe465719a43a75fdaebf92d6"
+          }
+        },
+        {
           "client_id": "494688131908-61nnkflq02okdqdmu7kmahq0a09mgrk3.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,6 +37,13 @@
             {
               "client_id": "494688131908-61nnkflq02okdqdmu7kmahq0a09mgrk3.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "494688131908-p7ssk8bp9f3oe1rip150aqvpogq8pgn8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.aiCryptoChat"
+              }
             }
           ]
         }
