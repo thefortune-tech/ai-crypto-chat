@@ -9,7 +9,7 @@ class ChatInput extends StatefulWidget {
   const ChatInput({
     super.key,
     required this.onSend,
-    required this.isSending,
+    required this.isSending
   });
 
   @override
@@ -20,14 +20,14 @@ class _ChatInputState extends State<ChatInput> {
   final _controller = TextEditingController();
 
   @override
-  void dispose() {
+  void dispose(){
     _controller.dispose();
     super.dispose();
   }
 
-  void _handleSend() {
-    final text = _controller.text.trim();
-    if (text.isEmpty || widget.isSending) return;
+  void _handleSend(){
+    final text=_controller.text.trim();
+    if(text.isEmpty|| widget.isSending) return;
     widget.onSend(text);
     _controller.clear();
   }

@@ -5,6 +5,9 @@ import '../providers/auth_providers.dart';
 import 'coin_list_page.dart';
 import 'chat_page.dart';
 
+
+
+
 class HomePage extends ConsumerStatefulWidget {
   const HomePage({super.key});
 
