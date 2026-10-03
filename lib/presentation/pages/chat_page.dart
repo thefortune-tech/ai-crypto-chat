@@ -32,6 +32,11 @@ class _ChatView extends StatefulWidget {
 class _ChatViewState extends State<_ChatView> {
   final _scrollController = ScrollController();
 
+  @override
+  void dispose() {
+    _scrollController.dispose();
+    super.dispose();
+  }
 
   void _scrollToBottom() {
     WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -94,7 +99,7 @@ class _ChatViewState extends State<_ChatView> {
                 child: chatState.messages.isEmpty
                     ? const Center(
                         child: Text(
-                          'Ask me anything about crypto ',
+                          'Ask me anything about crypto',
                           style: TextStyle(color: AppColors.whiteMuted),
                         ),
                       )
